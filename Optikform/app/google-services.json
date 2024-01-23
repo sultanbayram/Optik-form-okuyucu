@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "219741590574",
+    "firebase_url": "https://optikokuyucu-df6b7-default-rtdb.firebaseio.com",
+    "project_id": "optikokuyucu-df6b7",
+    "storage_bucket": "optikokuyucu-df6b7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:219741590574:android:0616e9f8d07219d40efbbf",
+        "android_client_info": {
+          "package_name": "com.example.mlkittextrecognition"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "219741590574-mguvuktu6gv4igqcpfeb80763tmfkn67.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVMEPrpop0uG9QXxtnDB7T2RhBv3AiEH8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "219741590574-mguvuktu6gv4igqcpfeb80763tmfkn67.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:219741590574:android:d0763966cf8146060efbbf",
+        "android_client_info": {
+          "package_name": "com.example.optikform"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "219741590574-mguvuktu6gv4igqcpfeb80763tmfkn67.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVMEPrpop0uG9QXxtnDB7T2RhBv3AiEH8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "219741590574-mguvuktu6gv4igqcpfeb80763tmfkn67.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

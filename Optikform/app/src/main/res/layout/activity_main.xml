@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DDE7F4"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/logoImageView"
+        android:layout_width="241dp"
+        android:layout_height="256dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/optik"/>
+
+
+    <TextView
+        android:id="@+id/TextView"
+        android:layout_width="287dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logoImageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="55dp"
+        android:background="#597AAC"
+        android:textStyle="bold"
+        android:text="~Uygulamayı kullanabilmek için optik formunuzun yapısı aynı olmalı." />
+
+    <TextView
+        android:id="@+id/TextView1"
+        android:layout_width="287dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logoImageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="95dp"
+        android:background="#597AAC"
+        android:textStyle="bold"
+        android:text="~Optik formun boş halini indirebilirsiniz." />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/TextView1"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="29dp"
+        android:background="#00afe9"
+        android:layout_marginEnd="0dp"
+        android:text="ÜYE OL"/>
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/TextView1"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="-1dp"
+        android:background="#0072a1"
+        android:layout_marginTop="96dp"
+        android:text="GİRİŞ YAP"/>
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/TextView1"
+        android:layout_alignParentEnd="true"
+        android:background="#0b588a"
+        android:layout_marginTop="172dp"
+        android:layout_marginEnd="-1dp"
+        android:text="ÜYELİKSİZ DEVAM ET"/>
+</RelativeLayout>

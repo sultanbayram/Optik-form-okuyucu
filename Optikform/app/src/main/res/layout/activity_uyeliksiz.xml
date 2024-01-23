@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".UyeliksizActivity"
+    tools:ignore="ExtraText">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  Cevap Anahtarı"
+            android:textColor="#1537B1"
+            android:textStyle="bold"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="176dp"
+            android:layout_toRightOf="@id/btnGallery"
+            android:text="Kontrol Yapılacak Optik"
+            android:textColor="#1537B1"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnGallery"
+            android:layout_width="55dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/textView"
+            android:layout_marginTop="149dp"
+            android:background="@drawable/baseline_photo_library_24" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="129dp"
+            android:layout_height="198dp"
+            android:layout_marginTop="25dp"
+            android:layout_below="@id/textView"
+            android:layout_toRightOf="@id/btnGallery"
+            android:adjustViewBounds="true"
+            android:scaleType="centerInside"
+            android:src="@drawable/foto1" />
+
+        <Button
+            android:id="@+id/btnCamera"
+            android:layout_width="55dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/textView"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="38dp"
+            android:background="@drawable/baseline_photo_camera_24" />
+
+        <Button
+            android:id="@+id/btnGallery1"
+            android:layout_width="55dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/textView"
+            android:layout_marginTop="149dp"
+            android:layout_toRightOf="@id/imageView1"
+            android:background="@drawable/baseline_photo_library_24" />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="129dp"
+            android:layout_height="198dp"
+            android:layout_below="@id/textView"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="2dp"
+            android:layout_toRightOf="@id/imageView"
+            android:adjustViewBounds="true"
+            android:scaleType="centerInside"
+            android:src="@drawable/foto2" />
+
+        <Button
+            android:id="@+id/btnCamera1"
+            android:layout_width="55dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/textView"
+            android:layout_toRightOf="@id/imageView1"
+            android:layout_marginTop="38dp"
+            android:background="@drawable/baseline_photo_camera_24" />
+        <Spinner
+            android:id="@+id/spinnerSoruSayisi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imageView"
+            android:entries="@array/soru_sayisi"/>
+
+        <Button
+            android:id="@+id/buttonKarsilastir"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/spinnerSoruSayisi"
+            android:layout_marginTop="29dp"
+            android:textSize="20sp"
+            android:background="#1537B1"
+            android:textColor="#BDBEC1"
+            android:text="Karşılastır" />
+
+        <TextView
+            android:id="@+id/benzerlikPuaniTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/spinnerSoruSayisi"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="29dp"
+            android:layout_toRightOf="@id/buttonKarsilastir"
+            android:background="#1537B1"
+            android:text="PUAN:     "
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textViewKontrol"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/buttonKarsilastir"
+            android:layout_marginTop="16dp"
+            android:layout_toRightOf="@id/tarananMetinSonucu"
+            android:text=""
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/tarananMetinSonucu"
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/buttonKarsilastir"
+            android:layout_marginTop="16dp"
+            android:text=""
+            android:textSize="10sp" />
+
+    </RelativeLayout>
+</androidx.core.widget.NestedScrollView>
